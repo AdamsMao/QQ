@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> iChat </title>
+	<link rel = "stylesheet" type = "text/css" href = "css/iChat.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/bootstrap-responsive.min.css">
+	<script src = "javascripts/jquery.min.js"></script>
+	<script src = "javascripts/bootstrap.min.js"></script>
+	<!--<script src = "/socket.io/socket.io.js"></script>-->
+	<script src = "javascripts/chat.js"></script>
+	<script src = "javascripts/socket.io.js"></script>
+	
+</head>
+<body>
+	<center>
+			<div id="username_div">
+					<div id="label_1">Your Name:</div>
+					<input type="text" size="30" id="username" name="username" />
+			</div>
+	</center>
+	
+	<div class="dragclass" id="main">
+		<div id="ChatHead">
+			<div id="head_user" name="head_user">iChat</div>
+			<div id="head_control" name="head_control"><a id="ChatHidden" href="#">-</a> <a id="ChatShow" href="#">+</a> <a id="ChatClose" href="#">x</a></div>
+		</div>
+		<div id="ChatBody">
+			<div id="ChatContent" name="ChatContent">				
+			</div>
+			<div id="ChatBtn">
+				<form action="" method="post" name="chat">
+				    	<textarea rows="3" id="ChatValue" name="ChatValue"></textarea> 
+					<input type="button" id ="btn_send" name="btn_send" value="点我发送/Ctrl+Enter" />
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="main_panel" id="main_panel">
+		<div class="user_panel_head">
+			<div id="user_panel_head_img">
+					<img src="img/user_me.png" width="30px"/>
+			</div>
+			<div id="user_panel_head_me">
+					me
+			</div>
+			<div class="user_panel_head_content">				
+			</div>
+		</div>
+		<div class="user_panel">
+			<div class="user_list">
+				<span> 用户列表: </span>
+			</div>			
+		</div>	
+		<div class="user_panel_foot">
+			<div class="user_panel_foot_content">				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
+

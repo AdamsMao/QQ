@@ -1,0 +1,143 @@
+	body {
+		background-image: url("../img/background.png");
+		background-color: #000000;
+		vertical-align:middle;
+	}	  
+	/***** 窗口的样式 *****/
+	  #username_div {
+		margin-top:20%;
+	  }
+	  #label_1 {
+		font-family:Calibri;
+		font-size:20px;
+		color:red;
+	  }
+	  #main {
+	    width:400px;
+	    position:absolute;
+	    display:none;
+	    background:#EFEFFF;
+	    text-align:left;
+	    filter:Alpha(opacity=90)
+	 }
+	  #ChatHead {
+	    text-align:right;
+	    padding:3px;
+	    height:15px;
+	    border:1px solid #003399;
+	    background:#DCDCFF;
+	    font-size:11px;
+	    color:#3366FF;
+	    cursor:move;	    	    
+	  }
+	  #head_user {
+	    width:50%;
+	    position:relative;
+        float:left;
+        text-align:left;
+	    cursor:move;" 
+	  }
+	  #head_control {
+	    width:50%;
+	    position:relative;
+	    float:left;
+	    cursor:move;
+	  }
+	  #ChatHead a:link,#ChatHead a:visited, {
+	    font-size:14px;
+	    font-weight:bold;
+	    padding:0 3px;
+	  }
+	  #ChatBody {
+	    border:1px solid #003399;
+	    border-top:none;
+	    padding:2px;
+	  }
+	  #ChatContent {
+	    height:200px;
+	    padding:6px;
+	    overflow-y:scroll;
+	    word-break: break-all
+	  }
+	  #ChatValue {
+	    width: 350px; 
+	  }
+	  #ChatBtn {
+	    border-top:1px solid #003399;
+	    padding:2px
+	  }
+	/**** 用户面板的样式 ****/
+	  .main_panel {
+	    width:250px;
+	    position:absolute;
+	    display:none;
+	    background:#EFEFFF;
+	    text-align:left;
+	    border:1px solid #003399;
+	    background:#DCDCFF;
+	    filter:Alpha(opacity=90)
+	  }
+	  .user_panel_head_content {
+	    height: 15px;
+	    text-align:left;
+	    padding:3px;
+	    border-bottom:1px solid #003399;
+	    background:#993D00;
+	    font-size:11px;
+	    color:#3366FF;	
+		cursor:move;
+	  }
+	  #user_panel_head_img{
+		padding:5px;
+		float:left;
+	  }
+	  #user_panel_head_me {
+		background:#993D00;
+		vertical-align:bottom;
+		padding:5px;
+		font-family:Calibri;
+		font-size:18px;
+		font-style:bold;
+		color:#FFFFCC;
+		cursor:move;
+	  }
+	  .user_tab {
+	    text-align:left;
+	    padding:0px;
+	    height:25px;
+	    width:100%;
+	    border-bottom:1px solid #003399;
+	    /*background:#DCDCFF;*/
+	    font-size:15px;
+	    color:#3366FF;
+	  }
+	  .user_icon{
+		 padding:5px;
+	  }
+	  .user_panel {
+		 background-color:#E0EBFF;
+	  }
+	  .user_panel a{
+	     color: red;	
+	  }
+	  .user_panel a:hover{
+		 text-decoration:none;
+	     color: blue;	
+		 cursor: pointer;
+	  }
+	  .user_panel a:active{	/* 鼠标点击与释放时蓝色 */ 
+		 color:white;
+	   }											
+	  .user_panel a:visited{
+		 color:#00FF00;
+	  }
+	  .user_panel_foot_content {
+	    height: 15px;
+	    text-align:left;
+	    padding:3px;
+	    background:#EBD6D6;
+	    font-size:11px;
+	    color:#3366FF;
+	  }
+	
+
